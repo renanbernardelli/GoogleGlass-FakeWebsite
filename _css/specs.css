@@ -1,0 +1,21 @@
+section#conteudo {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+iframe#frame-spec {
+    display: inline-block;
+    width: 35%;
+    height: 300px;
+    border: none;
+    overflow: hidden;
+}
+
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;
+}
+
+#frame-spec{
+    overflow-y: hidden;
+}
